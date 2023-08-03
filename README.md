@@ -1,12 +1,5 @@
 # Alveoli Contracts
 
-## Tokens
-
-| ChainID | Name | Address |
-|:---:|:---|:---:|
-| `8217` | SPN (for testing) | `0x4b71791d3e24635bfc0752813e0491eaea7fdf8d` |
-| `1001` | SPN (for testing) | `0x245860fdd798e0bc31cc404716afa465b31d2294` |
-
 ## Alveoli DEX (UniswapV3)
 
 | ChainID | Name | Address |
@@ -49,3 +42,15 @@
 | `1001` | Permit2 | `0xB952578f3520EE8Ea45b7914994dcf4702cEe578` |
 | `1001` | UnsupportedProtocol | `0xF75409B4Ff3460feD66425FC0914567C8a04E2A3` |
 | `1001` | UniversalRouter | `0x84f2295Fbd13C4619bBB7F6F360894385A67b3fF` |
+
+## Tokens
+
+| ChainID | Name | Address |
+|:---:|:---|:---:|
+| `8217` | WKLAY ([Canonical WKLAY](https://medium.com/klaytn/announcing-canonical-wklay-569202665d02)) | `0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432` |
+| `1001` | WKLAY ([Canonical WKLAY](https://medium.com/klaytn/announcing-canonical-wklay-569202665d02)) | `0x043c471bEe060e00A56CcD02c0Ca286808a5A436` |
+
+| ChainID | Name | Address |
+|:---:|:---|:---:|
+| `8217` | SPN | `0x4b71791d3e24635bfc0752813e0491eaea7fdf8d` |
+| `1001` | SPN | `0x245860fdd798e0bc31cc404716afa465b31d2294` |
