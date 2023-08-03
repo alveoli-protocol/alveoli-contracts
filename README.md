@@ -1,11 +1,11 @@
-# Alveoli Core
+# Alveoli Contracts
 
 ## Tokens
 
 | ChainID | Name | Address |
 |:---:|:---|:---:|
-| `8217` | SPN | `0x4b71791d3e24635bfc0752813e0491eaea7fdf8d` |
-| `1001` | SPN | `0x245860fdd798e0bc31cc404716afa465b31d2294` |
+| `8217` | SPN (for testing) | `0x4b71791d3e24635bfc0752813e0491eaea7fdf8d` |
+| `1001` | SPN (for testing) | `0x245860fdd798e0bc31cc404716afa465b31d2294` |
 
 ## Alveoli DEX (UniswapV3)
 
