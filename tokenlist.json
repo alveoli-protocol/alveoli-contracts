@@ -1,10 +1,10 @@
 {
   "name": "AV",
-  "timestamp": "2023-08-04T19:18:17.754Z",
+  "timestamp": "2023-08-04T22:05:20.155Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "tokens": [
     {
@@ -26,14 +26,32 @@
       "address": "0x1ff2640623d43Bf951a7C1Cee1177C462F35EBdc",
       "symbol": "BEAT",
       "decimals": 18,
-      "chainId": 1001
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
     },
     {
       "name": "Staked Heartbeat",
       "address": "0xF0eA7A883EdF3B106F5cb598A71c7DFb620a8885",
       "symbol": "xBEAT",
       "decimals": 18,
-      "chainId": 1001
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
+    },
+    {
+      "name": "Heartbeat",
+      "address": "0x51af8acd859c59ac058203b8e8b988365348edcf",
+      "symbol": "BEAT",
+      "decimals": 18,
+      "chainId": 8217,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
+    },
+    {
+      "name": "Staked Heartbeat",
+      "address": "0x515cbb52359C645bd66592D290f59f541465bEf2",
+      "symbol": "xBEAT",
+      "decimals": 18,
+      "chainId": 8217,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
     }
   ]
 }
