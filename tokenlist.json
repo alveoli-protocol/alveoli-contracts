@@ -20,6 +20,20 @@
       "symbol": "SPN",
       "decimals": 18,
       "chainId": 8217
+    },
+    {
+      "name": "Heartbeat",
+      "address": "0x1ff2640623d43Bf951a7C1Cee1177C462F35EBdc",
+      "symbol": "BEAT",
+      "decimals": 18,
+      "chainId": 1001
+    },
+    {
+      "name": "Staked Heartbeat",
+      "address": "0xF0eA7A883EdF3B106F5cb598A71c7DFb620a8885",
+      "symbol": "xBEAT",
+      "decimals": 18,
+      "chainId": 1001
     }
   ]
 }
