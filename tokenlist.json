@@ -50,7 +50,7 @@
       "address": "0x515cbb52359C645bd66592D290f59f541465bEf2",
       "symbol": "xBEAT",
       "decimals": 18,
-      "chainId": 8217
+      "chainId": 8217,
       "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
     }
   ]
