@@ -1,0 +1,25 @@
+{
+  "name": "AV",
+  "timestamp": "2023-08-04T19:18:17.754Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 3
+  },
+  "tokens": [
+    {
+      "name": "Solitary Pulmonary Nodule",
+      "address": "0x245860fdd798e0bc31cc404716afa465b31d2294",
+      "symbol": "SPN",
+      "decimals": 18,
+      "chainId": 1001
+    },
+    {
+      "name": "Solitary Pulmonary Nodule",
+      "address": "0x4b71791d3e24635bfc0752813e0491eaea7fdf8d",
+      "symbol": "SPN",
+      "decimals": 18,
+      "chainId": 8217
+    }
+  ]
+}
