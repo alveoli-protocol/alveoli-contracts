@@ -1,10 +1,10 @@
 {
   "name": "AV",
-  "timestamp": "2023-08-04T22:05:20.155Z",
+  "timestamp": "2023-08-06T00:28:35.692Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   },
   "tokens": [
     {
@@ -52,6 +52,14 @@
       "decimals": 18,
       "chainId": 8217,
       "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
+    },
+    {
+      "name": "Orbit Bridge Klaytn USD Tether",
+      "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "chainId": 8217,
+      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
     }
   ]
 }
