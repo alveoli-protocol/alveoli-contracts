@@ -2,9 +2,9 @@
   "name": "AV",
   "timestamp": "2023-08-06T18:14:22.630Z",
   "version": {
-    "major": 2,
+    "major": 3,
     "minor": 0,
-    "patch": 5
+    "patch": 0
   },
   "tokens": [
     {
@@ -20,22 +20,6 @@
       "symbol": "SPN",
       "decimals": 18,
       "chainId": 8217
-    },
-    {
-      "name": "Heartbeat",
-      "address": "0xf88e5574a10dec7b6ae0aa574df7a26c36aee275",
-      "symbol": "BEAT",
-      "decimals": 18,
-      "chainId": 1001,
-      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
-    },
-    {
-      "name": "Staked Heartbeat",
-      "address": "0x6756aa73d2536ed39717488bb1e109148a55d747",
-      "symbol": "xBEAT",
-      "decimals": 18,
-      "chainId": 1001,
-      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
     },
     {
       "name": "Heartbeat",
@@ -55,18 +39,34 @@
     },
     {
       "name": "Orbit Bridge Klaytn USD Tether",
-      "address": "0x9d9cf66bd7314168601ad0c9dca068095da751cd",
-      "symbol": "oUSDT",
-      "decimals": 6,
-      "chainId": 1001,
-      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
-    },
-    {
-      "name": "Orbit Bridge Klaytn USD Tether",
       "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
       "symbol": "oUSDT",
       "decimals": 6,
       "chainId": 8217,
+      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
+    },
+    {
+      "name": "Heartbeat",
+      "address": "0x4910fca7bd4cb6d9ae254080abe70aaeab5478a9",
+      "symbol": "BEAT",
+      "decimals": 18,
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
+    },
+    {
+      "name": "Staked Heartbeat",
+      "address": "0x1adfbd36fb8359a166678c9f30d31deb48560345",
+      "symbol": "xBEAT",
+      "decimals": 18,
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
+    },
+    {
+      "name": "Orbit Bridge Klaytn USD Tether",
+      "address": "0xfbfbfc9b61a6e5f4355fdb77562a783b496076d6",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "chainId": 1001,
       "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
     }
   ]
