@@ -1,4 +1,4 @@
-import NonfungiblePositionManager from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
+import NonfungiblePositionManager from '../artifacts/contracts/v3-periphery/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import createDeployContractStep from './meta/createDeployContractStep'
 
 export const DEPLOY_NONFUNGIBLE_POSITION_MANAGER = createDeployContractStep({

@@ -4,6 +4,19 @@ import linkLibraries from '../../util/linkLibraries'
 
 type ConstructorArgs = (string | number | string[] | number[])[]
 
+const withRetries = async <T>(promise: Promise<T>): Promise<T> => {
+  let delay = 1_000
+  for (;;) {
+    try {
+      return await promise
+    } catch (e: any) {
+      console.error(`Error while fetching data, retrying in ${delay}ms: ${e.message}`)
+      await new Promise((r) => setTimeout(r, delay))
+      delay *= 2
+    }
+  }
+}
+
 export default function createDeployContractStep({
   key,
   artifact: { contractName, abi, bytecode, linkReferences },
@@ -26,7 +39,7 @@ export default function createDeployContractStep({
     throw new Error('Compute libraries passed but no link references')
   }
 
-  return async (state, config) => {
+  const func: MigrationStep = async (state, config) => {
     if (state[key] === undefined) {
       const constructorArgs: ConstructorArgs = computeArguments ? computeArguments(state, config) : []
 
@@ -59,4 +72,6 @@ export default function createDeployContractStep({
       return [{ message: `Contract ${contractName} was already deployed`, address: state[key] }]
     }
   }
+
+  return func
 }
