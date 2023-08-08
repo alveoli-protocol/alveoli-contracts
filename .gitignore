@@ -1,1 +1,13 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+cache
+artifacts
+
+deployment
+
+.idea
 .DS_Store
