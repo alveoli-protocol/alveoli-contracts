@@ -1,10 +1,10 @@
 {
   "name": "AV",
-  "timestamp": "2023-08-04T22:05:20.155Z",
+  "timestamp": "2023-08-08T03:02:25.669Z",
   "version": {
-    "major": 0,
+    "major": 4,
     "minor": 0,
-    "patch": 4
+    "patch": 0
   },
   "tokens": [
     {
@@ -23,22 +23,6 @@
     },
     {
       "name": "Heartbeat",
-      "address": "0x1ff2640623d43Bf951a7C1Cee1177C462F35EBdc",
-      "symbol": "BEAT",
-      "decimals": 18,
-      "chainId": 1001,
-      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
-    },
-    {
-      "name": "Staked Heartbeat",
-      "address": "0xF0eA7A883EdF3B106F5cb598A71c7DFb620a8885",
-      "symbol": "xBEAT",
-      "decimals": 18,
-      "chainId": 1001,
-      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
-    },
-    {
-      "name": "Heartbeat",
       "address": "0x51af8acd859c59ac058203b8e8b988365348edcf",
       "symbol": "BEAT",
       "decimals": 18,
@@ -52,6 +36,38 @@
       "decimals": 18,
       "chainId": 8217,
       "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
+    },
+    {
+      "name": "Orbit Bridge Klaytn USD Tether",
+      "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "chainId": 8217,
+      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
+    },
+    {
+      "name": "Heartbeat",
+      "address": "0x4910fca7bd4cb6d9ae254080abe70aaeab5478a9",
+      "symbol": "BEAT",
+      "decimals": 18,
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/beat.svg"
+    },
+    {
+      "name": "Staked Heartbeat",
+      "address": "0x1adfbd36fb8359a166678c9f30d31deb48560345",
+      "symbol": "xBEAT",
+      "decimals": 18,
+      "chainId": 1001,
+      "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
+    },
+    {
+      "name": "Orbit Bridge Klaytn USD Tether",
+      "address": "0xfbfbfc9b61a6e5f4355fdb77562a783b496076d6",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "chainId": 1001,
+      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
     }
   ]
 }
