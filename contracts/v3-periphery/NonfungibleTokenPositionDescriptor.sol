@@ -115,7 +115,8 @@ contract NonfungibleTokenPositionDescriptor is
 
     function tokenRatioPriority(
         address token,
-        uint256 _chainId
+        // uint256 _chainId
+        uint256
     ) public view returns (int256) {
         if (token == WETH9) {
             return TokenRatioSortOrder.DENOMINATOR;
