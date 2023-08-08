@@ -166,7 +166,7 @@ library NFTDescriptor {
         return
             string(
                 abi.encodePacked(
-                    'Uniswap - ',
+                    'Alveoli - ',
                     feeTier,
                     ' - ',
                     escapeQuotes(params.quoteTokenSymbol),
