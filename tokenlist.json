@@ -1,29 +1,15 @@
 {
   "name": "AV",
-  "timestamp": "2023-08-08T03:02:25.669Z",
+  "timestamp": "2023-08-08T14:47:49.959Z",
   "version": {
-    "major": 4,
+    "major": 5,
     "minor": 0,
     "patch": 0
   },
   "tokens": [
     {
-      "name": "Solitary Pulmonary Nodule",
-      "address": "0x245860fdd798e0bc31cc404716afa465b31d2294",
-      "symbol": "SPN",
-      "decimals": 18,
-      "chainId": 1001
-    },
-    {
-      "name": "Solitary Pulmonary Nodule",
-      "address": "0x4b71791d3e24635bfc0752813e0491eaea7fdf8d",
-      "symbol": "SPN",
-      "decimals": 18,
-      "chainId": 8217
-    },
-    {
       "name": "Heartbeat",
-      "address": "0x51af8acd859c59ac058203b8e8b988365348edcf",
+      "address": "0xf15b3ba467440b457ad177774056c31163fb4ef8",
       "symbol": "BEAT",
       "decimals": 18,
       "chainId": 8217,
@@ -31,19 +17,11 @@
     },
     {
       "name": "Staked Heartbeat",
-      "address": "0x515cbb52359C645bd66592D290f59f541465bEf2",
+      "address": "0xb58658ccbdc92ac97abd4e56a4f74e8501168925",
       "symbol": "xBEAT",
       "decimals": 18,
       "chainId": 8217,
       "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
-    },
-    {
-      "name": "Orbit Bridge Klaytn USD Tether",
-      "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
-      "symbol": "oUSDT",
-      "decimals": 6,
-      "chainId": 8217,
-      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
     },
     {
       "name": "Heartbeat",
@@ -60,14 +38,6 @@
       "decimals": 18,
       "chainId": 1001,
       "logoURI": "https://heartbeat-exchange.github.io/assets/xbeat.svg"
-    },
-    {
-      "name": "Orbit Bridge Klaytn USD Tether",
-      "address": "0xfbfbfc9b61a6e5f4355fdb77562a783b496076d6",
-      "symbol": "oUSDT",
-      "decimals": 6,
-      "chainId": 1001,
-      "logoURI": "https://api.swapscanner.io/api/tokens/0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167/icon"
     }
   ]
 }
